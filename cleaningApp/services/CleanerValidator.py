@@ -5,7 +5,6 @@ from utils.singleton import Singleton
 from utils.logger import getLogger as Logger
 import datrie
 import string
-import numpy as np
 import json
 from datetime import datetime, timedelta
 import threading

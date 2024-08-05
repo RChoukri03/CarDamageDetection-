@@ -27,6 +27,7 @@ The cleaning application, located in the `cleaningApp` directory, is built with 
 - Python 3.x
 - Flask
 - Datrie
+- boto3
 - JavaScript, HTML, and CSS for the frontend
 - Necessary Python libraries listed in `requirements.txt`
 

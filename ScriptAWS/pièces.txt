@@ -1,0 +1,20 @@
+Plaque d'immatriculation avant
+Pare-choc
+Feux avant droit
+Feux avant gauche
+Capot
+Pare-brise avant
+Aile avant droit
+Aile avant gauche
+Porte avant droite
+Porte avant gauche
+Porte arrière droite
+Porte arrière gauche
+Aile arrière droit
+Aile arrière gauche
+Pare-brise arriere
+Malle
+Feux arrière droit
+Feux arrière gauche
+Pare-choc arriere
+Plaque d'immatriculation arrière

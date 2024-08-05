@@ -1,0 +1,20 @@
+S'il s'agit d'une image de voiture, pour chaque partie de la voiture, vérifiez s'il y a un dommage et évaluez sa gravité de 0 à 5
+
+Niveaux de gravité:
+0: aucun dommage
+1: rayures mineures
+2: petites bosses
+3: dégâts modérés
+4: dommages graves
+5: dégâts critiques
+
+Les pièces de voiture à considérer:
+
+Pour chaque pièce de voiture mentionné, écrivez:
+le nom de la pièce - la gravité
+
+Malgrès si la pièce n'est pas endommagée, incluez-la et donnez une gravité de 0
+Assurez la cohérence de l'évaluation afin de faciliter l'extraction et le traitement ultérieurs des données. N'incluez aucune pièce qui n'est pas mentionné.
+N'incluez aucun autre texte ou information.
+
+S'il ne s'agit pas d'une image de voiture, ou si l'image est à l'intérieur de la voiture, écrivez "not car"

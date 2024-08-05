@@ -1,0 +1,29 @@
+2024-05-09 18:06:36,647 - INF -    Cleaner - Initializing Tries from csv Files
+2024-05-09 18:07:41,303 - INF -     Aws-S3 - Conncted to s3 Bucket sygma-global-data-storage
+2024-05-09 18:08:20,854 - INF -    Cleaner - Initializing Tries from csv Files
+2024-05-09 18:08:23,387 - INF -    Cleaner - loadStatusTries ...
+2024-05-09 18:08:23,388 - INF -    Cleaner - Synchronizing pending & validated Trees
+2024-05-09 18:08:23,435 - WAR -    Cleaner - time to load status 0.03232717514038086
+2024-05-09 18:08:23,438 - INF -    Cleaner - Create Data Generators ...
+2024-05-09 18:10:26,632 - INF -     Aws-S3 - Conncted to s3 Bucket sygma-global-data-storage
+2024-05-09 18:10:29,322 - INF -    Cleaner - Initializing Tries from csv Files
+2024-05-09 18:10:32,406 - INF -    Cleaner - loadStatusTries ...
+2024-05-09 18:10:32,406 - INF -    Cleaner - Synchronizing pending & validated Trees
+2024-05-09 18:10:32,453 - WAR -    Cleaner - time to load status 0.030998945236206055
+2024-05-09 18:10:32,456 - INF -    Cleaner - Create Data Generators ...
+2024-05-09 18:11:02,087 - INF -     Aws-S3 - Conncted to s3 Bucket sygma-global-data-storage
+2024-05-09 18:11:04,580 - INF -    Cleaner - Initializing Tries from csv Files
+2024-05-09 18:11:07,229 - INF -    Cleaner - loadStatusTries ...
+2024-05-09 18:11:07,229 - INF -    Cleaner - Synchronizing pending & validated Trees
+2024-05-09 18:11:07,292 - WAR -    Cleaner - time to load status 0.046425819396972656
+2024-05-09 18:11:07,295 - INF -    Cleaner - Create Data Generators ...
+2024-05-09 18:11:07,305 - INF -       main - initiating validator instance ... 
+2024-05-09 18:11:07,309 - INF -       main - Run server on 0.0.0.0:4000
+2024-05-09 18:13:04,081 - INF -        API - GET|/|ExecTime 0.01s |200
+2024-05-09 18:13:04,150 - INF -        API - GET|/static/styles.css|ExecTime 0.01s |200
+2024-05-09 18:13:04,158 - INF -        API - GET|/static/images/img1.jpg|ExecTime 0.00s |200
+2024-05-09 18:13:04,171 - INF -        API - GET|/static/images/img2.jpg|ExecTime 0.01s |200
+2024-05-09 18:13:04,187 - INF -        API - GET|/static/images/img3.jpg|ExecTime 0.01s |200
+2024-05-09 18:13:04,200 - INF -        API - GET|/static/script.js|ExecTime 0.01s |200
+2024-05-09 18:13:04,302 - ERR -        API - Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-09 18:13:04,303 - INF -        API - GET|/favicon.ico|ExecTime 0.00s |500

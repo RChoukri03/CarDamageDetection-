@@ -21,6 +21,16 @@ The cleaning application, located in the `cleaningApp` directory, is built with 
 - `ImageCarsScrapping/`: Contains scripts for scraping images from the specified websites.
 - `cleaningApp/`: Contains the Flask application for annotating images.
 
+## Future Perspectives
+
+After completing the annotation of damage regions in the car images, the next steps for the project include:
+
+### Developing a Model for Damage Prediction
+- Design and implement a machine learning model to predict the location and extent of damage on cars based on the annotated data.
+
+### Segmenting Damage Regions
+- Create a segmentation model to accurately delineate damaged areas on the car images, which will help in providing more detailed damage assessments.
+
 ## Getting Started
 
 ### Prerequisites

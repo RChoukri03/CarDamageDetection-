@@ -7,9 +7,9 @@ body {
 }
 .header-images {
     display: flex;
-    justify-content: space-between; /* ou center pour centrer les images */
-    align-items: center; /* pour les aligner verticalement au centre */
-    flex-wrap: nowrap; /* pour éviter le retour à la ligne si la largeur de la page est réduite */
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
 }
 
 .header-images img {
@@ -19,25 +19,25 @@ body {
 
 
 .status-info {
-    font-size: 0.9rem; /* Reduce the font size for a more compact appearance */
+    font-size: 0.9rem; 
 }
 
 .card {
-    padding: 10px; /* Reduce padding within the card for a slimmer appearance */
-    border: 1px solid #ccc; /* Optional: style the border of the card */
+    padding: 10px; 
+    border: 1px solid #ccc; 
 }
 
 .btn-sm {
-    padding: 0.25rem 0.5rem; /* Smaller padding for the button */
-    font-size: 0.875rem; /* Smaller text for the button */
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.875rem;
 }
 .value-button {
-    width: 40px;  /* Augmenter la taille pour plus de visibilité */
+    width: 40px; 
     height: 40px;
-    border-radius: 20px; /* Assurez-vous que les boutons sont parfaitement circulaires */
+    border-radius: 20px;
     display: inline-block;
     text-align: center;
-    line-height: 38px; /* Ajustez cela pour centrer le texte verticalement */
+    line-height: 38px;
     margin: 2px;
     cursor: pointer;
     border: 1px solid #cccccc;
@@ -46,32 +46,31 @@ body {
 }
 
 .value-button.active {
-    background-color: #007bff; /* Couleur bleue pour l'élément actif */
+    background-color: #007bff;
     color: #ffffff;
 }
 
 
 .collapse.show + .bi-chevron-down {
-    transform: rotate(180deg); /* Rotate icon when expanded */
+    transform: rotate(180deg); 
 }
 .highlight {
-    background-color: #d4e0be; /* Une couleur de fond pour mettre en évidence */
+    background-color: #d4e0be;
 }
 
-/* Additional styling to make it "bling" */
 .card-body {
-    background-color: #f8f9fa; /* Light background for the card body */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 
 .btn-custom-next {
-    background-color: #9dadab; /* Vert */
-    color: white; /* Texte blanc */
+    background-color: #9dadab; 
+    color: white; 
 }
 
 .btn-custom-skip {
-    background-color: #f44336; /* Rouge */
-    color: white; /* Texte blanc */
+    background-color: #f44336;
+    color: white;
 }
 
 
@@ -83,29 +82,29 @@ body {
     position: fixed;
     top: 30%;
     left: 15%;
-    transform: scale(1.35); /*translate(-50%, -50%);*/
+    transform: scale(1.35);
     z-index: 1100;
-    max-width: 100vw; /* Ne dépasse pas la largeur de la fenêtre */
-    max-height: 100vh; /* Ne dépasse pas la hauteur de la fenêtre */
+    max-width: 100vw; 
+    max-height: 100vh; 
     width: auto;
     height: auto;
 }
 
 
 #imageDisplay {
-    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
-    height: auto; /* Permet à l'image de conserver son ratio hauteur/largeur */
+    max-width: 100%;
+    height: auto;
 }
 #carImage {
-    width: 900px; /* Définit la largeur de l'image SVG */
-    height: 1200px; /* Définit la hauteur de l'image SVG */
-    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur du conteneur parent */
-    max-height: 80%; /* Assure que l'image ne dépasse pas la hauteur du conteneur parent */
-    display: block; /* Assure un comportement de bloc pour l'image SVG */
-    margin: 0 auto; /* Centre l'image horizontalement */
+    width: 900px;
+    height: 1200px; 
+    max-width: 100%; 
+    max-height: 80%; 
+    display: block;
+    margin: 0 auto; 
     margin-top: -100px;
     margin-left: 400px;
-    position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+    position: relative;
     z-index: 1;
     transform: scale(1.1) ;
 }
@@ -129,58 +128,57 @@ body {
     padding: 5px;
 }
 .image-container {
-    flex: 0 0 30%; /* Chaque conteneur d'image occupera 30% de l'espace disponible */
-    margin-right: 1.5%; /* Espacement entre les images */
-    text-align: center; /* Centrer l'image dans le conteneur */
+    flex: 0 0 30%; 
+    margin-right: 1.5%; 
+    text-align: center; 
 }
 
 .image-container:last-child {
-    margin-right: 0; /* Enlever la marge pour le dernier élément pour éviter le débordement */
+    margin-right: 0; 
 }
 
 .static-img {
-    width: 100%; /* L'image remplira le conteneur */
-    height: auto; /* Hauteur automatique pour maintenir l'aspect ratio */
+    width: 100%;
+    height: auto; 
     border: 3px solid #dee2e6;
     border-radius: 5px;
     padding: 5px;
-    transition: transform 0.3s ease; /* Transition douce pour le transform */
+    transition: transform 0.3s ease; 
 }
 
 .toggle-button {
-    padding: 0.375rem 0.75rem; /* Réduction de la taille du bouton */
-    font-size: 0.875rem; /* Petite taille de police */
-    margin-top: 10px; /* Marge en haut pour séparation */
-    cursor: pointer; /* Style du curseur */
+    padding: 0.375rem 0.75rem; 
+    font-size: 0.875rem; 
+    margin-top: 10px; 
+    cursor: pointer; 
 }
 .container-top-controls {
     display: flex;
-    align-items: center; /* Alignement vertical au centre */
-    justify-content: start; /* Alignement horizontal au début */
-    gap: 10px; /* Espacement entre les éléments */
+    align-items: center; 
+    justify-content: start; 
+    gap: 10px; 
 }
 
 .additional-info-display {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espacement entre les inputs */
+    gap: 10px; 
 }
 
 .btn-sm {
-    flex-shrink: 0; /* Empêche le bouton de rétrécir */
+    flex-shrink: 0; 
 }
 
-/* Ajout d'un effet de transition pour le toggle */
 .image-container.collapsed .static-img {
-    transform: scale(0); /* Réduit l'image à zéro */
+    transform: scale(0);
 }
 
 .lamp.active {
-    background-color: #4CAF50; /* Green when active */
+    background-color: #4CAF50; 
 }
 
 .form-label {
-    cursor: pointer; /* Makes it clear the label is clickable */
+    cursor: pointer; 
 }
 
 .data-row {
@@ -210,7 +208,7 @@ body {
     justify-content: center;
     padding: 10px;
     margin: 5px;
-    background-color: #f0f0f0; /* Couleur initiale */
+    background-color: #f0f0f0; 
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
@@ -218,92 +216,87 @@ body {
 }
 
 .toggle-container.checked {
-    background-color: #4CAF50; /* Vert quand activé */
+    background-color: #4CAF50; 
 }
 
 .key-label {
     display: block;
-    background-color: #f8f9fa; /* Couleur de fond */
-    border: 1px solid #ccc; /* Bordure */
-    border-radius: 5px; /* Bords arrondis */
-    padding: 5px 10px; /* Espacement interne */
-    margin-bottom: 5px; /* Espacement en dessous du label */
-    text-align: center; /* Centrer le texte */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
-    width: 100%; /* Assurez-vous que la largeur est correcte selon votre mise en page */
+    background-color: #f8f9fa;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    margin-bottom: 5px; 
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
 }
-
 .lamp-container {
     display: flex;
-    justify-content: center; /* Centrer les lampes horizontalement */
-    padding-bottom: 10px; /* Espacement sous les lampes */
+    justify-content: center; 
+    padding-bottom: 10px; 
 }
 
 .lamp {
-    width: 50px; /* Agrandir le cercle */
+    width: 50px; 
     height: 60px;
-    line-height: 60px; /* Centrer la valeur verticalement */
+    line-height: 60px; 
     border-radius: 50%;
     background-color: #ccc;
-    text-align: center; /* Centrer la valeur horizontalement */
+    text-align: center; 
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
-/* Assurez-vous que le conteneur parent utilise toute la largeur et la hauteur disponibles */
 
 .fixed-height-container-data {
-/* Centrage vertical des enfants */
-    height: 60px; /* Hauteur fixe */
-    margin-bottom: 20px; /* Espace en dessous du conteneur */
+    height: 60px; 
+    margin-bottom: 20px;
 }
 
 .fixed-height-container {
     display: flex;
-    align-items: center; /* Centrage vertical des enfants */
-    justify-content: space-between; /* Répartition équilibrée des enfants */
-    height: 600px; /* Hauteur fixe */
-    margin-bottom: 20px; /* Espace en dessous du conteneur */
+    align-items: center; 
+    justify-content: space-between; 
+    height: 600px; 
+    margin-bottom: 20px;
 }
 
 .col-lg-6, .col-lg-5 {
-    padding-right: 20px; /* Aucun padding à droite */
+    padding-right: 20px; 
     padding-left: 20px;
-    max-height: 600px; /* Aucun padding à gauche */
+    max-height: 600px; 
 }
 
 
-/* Évitez le débordement horizontal */
 .container, .row, [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
 }
 
-/* Si nécessaire, ajouter un contrôle plus précis */
 .no-padding {
-    padding: 0 !important; /* Supprimer le padding là où c'est nécessaire */
+    padding: 0 !important; 
 }
 .button-row {
-    width: 100%; /* Assure que la rangée de boutons utilise toute la largeur disponible */
-    padding-top: 10px; /* Espacement au-dessus pour éviter le chevauchement */
-    padding-bottom: 10px; /* Espacement en dessous pour une séparation claire */
-    position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+    width: 100%; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    position: relative; 
     z-index: 2;
 
 }
 
 .img-fluid {
-    width: 100%; /* Pleine largeur pour les images responsive */
-    height: 80%; /* Hauteur automatique pour maintenir l'aspect */
+    width: 100%; 
+    height: 80%; 
 }
 
 
 
 
 
-.lamp.active.level-1 { background-color: #76D7C4; } /* Vert clair */
-.lamp.active.level-2 { background-color: #F8C471; } /* Orange */
-.lamp.active.level-3 { background-color: #E74C3C; } /* Rouge */
+.lamp.active.level-1 { background-color: #76D7C4; } 
+.lamp.active.level-2 { background-color: #F8C471; } 
+.lamp.active.level-3 { background-color: #E74C3C; } 
 
 .data-container {
     display: flex;
@@ -361,15 +354,7 @@ body {
     color: blue;
 }
 
-/* .container {
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    max-width: 1200px;
-    margin: auto;
-} */
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -382,20 +367,20 @@ body {
 button {
     width: 90%;
     margin-bottom: 5px;
-    position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+    position: relative; 
     z-index: 2;
 }
 #dataDisplay > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+    position: relative; 
     z-index: 2;
 }
 #dataDisplay .mb-3 {
-    width: 40%; /* Calcule pour 5 éléments par ligne avec un peu d'espace */
+    width: 40%; 
     min-width: 1px;
-    position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+    position: relative; 
     z-index: 2;
 
 }
@@ -421,7 +406,7 @@ button {
     transition: visibility 0.5s, opacity 0.5s linear;
 }
 .custom-control-input {
-    display: none; /* Cache l'input d'origine */
+    display: none;
 }
 
 .custom-control-label::before, .custom-control-label::after {
@@ -447,7 +432,7 @@ button {
 }
 
 .custom-control-input:checked + .custom-control-label::before {
-    background-color: #007bff; /* Bleu bootstrap */
+    background-color: #007bff;
 }
 
 .custom-control-input:checked + .custom-control-label::after {
@@ -457,13 +442,13 @@ button {
 .custom-control {
     margin-left: 50px;
     position: relative;
-    padding-left: 40px; /* Espace pour le faux interrupteur */
+    padding-left: 40px;
     margin-bottom: 1rem;
     cursor: pointer;
 }
 
 .custom-control-label {
-    margin-bottom: 0; /* Supprime la marge par défaut de bootstrap */
+    margin-bottom: 0; 
     cursor: pointer;
 }
 
@@ -508,7 +493,7 @@ html {
 }
 @media (max-width: 768px) {
     .value-button, .lamp {
-        width: 25px; /* Encore plus petit pour les petits écrans */
+        width: 25px; 
         height: 25px;
     }
 
@@ -517,61 +502,61 @@ html {
     }
 
     #dataDisplay .mb-3 {
-        width: 30%; /* Augmenter l'espace pour chaque élément sur les petits écrans */
-        position: relative; /* Ajoutez une position relative pour que z-index fonctionne */
+        width: 30%; 
+        position: relative; 
         z-index: 2;
     }
 
     body {
-        padding-top: 5px; /* Réduire l'espacement pour les petits écrans */
+        padding-top: 5px;
     }
 }
 /* Style pour le toast */
 .toast {
-    visibility: hidden; /* Caché par défaut */
-    min-width: 250px; /* Largeur minimale */
-    margin-left: -125px; /* Centrage du toast */
-    background-color: #333; /* Couleur de fond */
-    color: #fff; /* Couleur du texte */
-    text-align: center; /* Texte centré */
-    border-radius: 2px; /* Bords arrondis */
-    padding: 16px; /* Padding autour du texte */
-    position: fixed; /* Positionnement fixe */
-    z-index: 1; /* S'assure qu'il apparaît au-dessus des autres éléments */
-    left: 50%; /* Centrage horizontal */
-    bottom: 30px; /* Position du bas */
-    font-size: 17px; /* Taille de la police */
-    transition: visibility 0.5s, opacity 0.5s linear; /* Transition pour l'apparition/disparition */
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: #333; 
+    color: #fff;
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px; 
+    position: fixed;  
+    z-index: 1; 
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px; 
+    transition: visibility 0.5s, opacity 0.5s linear;
 }
 
 .toast.show {
-    visibility: visible; /* Rend visible */
-    opacity: 1; /* Complètement opaque */
+    visibility: visible; 
+    opacity: 1;
 }
 
 .toast.hide {
-    visibility: hidden; /* Cache après l'animation */
-    opacity: 0; /* Transparent */
+    visibility: hidden;
+    opacity: 0; 
 }
 area {
-    outline: 2px solid #aaa; /* Light grey outline */
-    background-color: rgba(173, 201, 33, 0.5); /* Slight background color */
+    outline: 2px solid #aaa; 
+    background-color: rgba(173, 201, 33, 0.5); 
 }
 
 .area-hover {
-    background-color: rgba(185, 44, 44, 0.5); /* Lighter background on hover */
-    outline: 2px solid #000; /* Darker outline to highlight */
+    background-color: rgba(185, 44, 44, 0.5); 
+    outline: 2px solid #000; 
 }
 
-.area-level-1 { fill: #76D7C4 !important;  } /* Light green */
-.area-level-2 { fill: #F8C471 !important; } /* Orange */
-.area-level-3 { fill: #E74C3C !important; } /* Red */
+.area-level-1 { fill: #76D7C4 !important;  } 
+.area-level-2 { fill: #F8C471 !important; } 
+.area-level-3 { fill: #E74C3C !important; } 
 .area-level-0 { fill: #7ab8ee !important; }
 
-.zone-level-1 { fill: #76D7C4 !important; } /* Light green */
-.zone-level-2 { fill: #F8C471 !important; } /* Orange */
-.zone-level-3 { fill: #E74C3C !important; } /* Red */
-.zone-level-0 { fill: #7ab8ee !important; } /* Some blue for no level specified */
+.zone-level-1 { fill: #76D7C4 !important; } 
+.zone-level-2 { fill: #F8C471 !important; } 
+.zone-level-3 { fill: #E74C3C !important; } 
+.zone-level-0 { fill: #7ab8ee !important; } 
 
 
 .interactive-zone {
@@ -580,6 +565,6 @@ area {
 }
 
 .interactive-zone:hover {
-    fill: #329e4d; /* Changement de couleur au survol */
+    fill: #329e4d;
     transform: scale(1.1);
 }

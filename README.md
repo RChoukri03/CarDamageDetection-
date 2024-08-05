@@ -26,6 +26,7 @@ The cleaning application, located in the `cleaningApp` directory, is built with 
 ### Prerequisites
 - Python 3.x
 - Flask
+- Datrie
 - JavaScript, HTML, and CSS for the frontend
 - Necessary Python libraries listed in `requirements.txt`
 
@@ -33,5 +34,5 @@ The cleaning application, located in the `cleaningApp` directory, is built with 
 
 1. **Clone the repository**:
    ```sh
-   git clone git@github.com:RChoukri03/CarDamageDetection.git
+   git clone git@github.com:RChoukri03/CarDamageDetection-.git
    cd CarDamageDetection
